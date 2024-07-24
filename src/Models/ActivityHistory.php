@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace  Treconyl\ActivityHistory\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\User;

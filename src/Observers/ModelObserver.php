@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Auth;
 
-use App\Models\ActivityHistory;
+use Treconyl\ActivityHistory\Models\ActivityHistory;
 
 class ModelObserver
 {

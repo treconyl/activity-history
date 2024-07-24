@@ -14,7 +14,7 @@ return [
 
     // Thêm các mô hình cần loại trừ ở đây
     'excluded_models' => [
-        App\Models\ActivityHistory::class, // mặc định phải loại trừ mô hình này tránh vòng lặp vô hạn
+        Treconyl\ActivityHistory\Models\ActivityHistory::class, // mặc định phải loại trừ mô hình này tránh vòng lặp vô hạn
        
     ],
 ];
