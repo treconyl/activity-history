@@ -63,7 +63,7 @@ class ActivityHistoryServiceProvider extends ServiceProvider
     protected function getAllModels()
     {
         $models = [];
-        $paths = config('activity-history.paths'); // Lấy đường dẫn từ file cấu hình
+        $paths = config('activity-history.paths', []); // Lấy đường dẫn từ file cấu hình
 
         foreach ($paths as $path) {
             if (!is_dir($path)) {
