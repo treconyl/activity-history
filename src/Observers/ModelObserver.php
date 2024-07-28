@@ -36,7 +36,7 @@ class ModelObserver
 
         // Lấy thông tin mô hình và hành động
         $modelPath = get_class($model);
-        $updatedFields = $model->getDirty();
+        $updatedFields = $model->getDirty(); unset($updatedFields['updated_at']);
         $userId = Auth::id() ?? 0;
         $modelId = $model->getKey();
 
